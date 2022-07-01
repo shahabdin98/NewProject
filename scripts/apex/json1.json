@@ -1,0 +1,55 @@
+[
+    {
+        "attributes": {
+            "type": "Account",
+            "url": "/services/data/v54.0/sobjects/Account/0018c00002EudEhAAJ"
+        },
+        "Id": "0018c00002EudEhAAJ",
+        "Name": "GenePointvBvB-- SI",
+        "AnnualRevenue": 30000000,
+        "Type": "Customer - Channel",
+        "CreatedDate": "2022-03-16T16:17:53.000+0000"
+    },
+    {
+        "attributes": {
+            "type": "Account",
+            "url": "/services/data/v54.0/sobjects/Account/0018c00002EudEfAAJ"
+        },
+        "Id": "0018c00002EudEfAAJ",
+        "Name": "United Oil & Gas, UKvBvB-- SI",
+        "Type": "Customer - Direct",
+        "CreatedDate": "2022-03-16T16:17:53.000+0000"
+    },
+    {
+        "attributes": {
+            "type": "Account",
+            "url": "/services/data/v54.0/sobjects/Account/0018c00002EudEgAAJ"
+        },
+        "Id": "0018c00002EudEgAAJ",
+        "Name": "United Oil & Gas, SingaporevBvB-- SI",
+        "Type": "Customer - Direct",
+        "CreatedDate": "2022-03-16T16:17:53.000+0000"
+    },
+    {
+        "attributes": {
+            "type": "Account",
+            "url": "/services/data/v54.0/sobjects/Account/0018c00002EudEXAAZ"
+        },
+        "Id": "0018c00002EudEXAAZ",
+        "Name": "Edge CommunicationsvBvB-- SI",
+        "AnnualRevenue": 139000000,
+        "Type": "Customer - Direct",
+        "CreatedDate": "2022-03-16T16:17:53.000+0000"
+    },
+    {
+        "attributes": {
+            "type": "Account",
+            "url": "/services/data/v54.0/sobjects/Account/0018c00002EudEYAAZ"
+        },
+        "Id": "0018c00002EudEYAAZ",
+        "Name": "Burlington Textiles Corp of AmericavBvB-- SI",
+        "AnnualRevenue": 350000000,
+        "Type": "Customer - Direct",
+        "CreatedDate": "2022-03-16T16:17:53.000+0000"
+    }
+]

@@ -1,0 +1,54 @@
+[
+    {
+        "attributes": {
+            "type": "Account",
+            "url": "/services/data/v54.0/sobjects/Account/0018c00002EudEcAAJ"
+        },
+        "Id": "0018c00002EudEcAAJ",
+        "Name": "United Oil & Gas Corp.vB-- SI",
+        "AnnualRevenue": 5600000000,
+        "Type": "Customer - Direct",
+        "Contacts": {
+            "totalSize": 4,
+            "done": true,
+            "records": [
+                {
+                    "attributes": {
+                        "type": "Contact",
+                        "url": "/services/data/v54.0/sobjects/Contact/0038c00002iImLRAA0"
+                    },
+                    "AccountId": "0018c00002EudEcAAJ",
+                    "Id": "0038c00002iImLRAA0",
+                    "Name": "Stella Pavlova"
+                },
+                {
+                    "attributes": {
+                        "type": "Contact",
+                        "url": "/services/data/v54.0/sobjects/Contact/0038c00002iImLSAA0"
+                    },
+                    "AccountId": "0018c00002EudEcAAJ",
+                    "Id": "0038c00002iImLSAA0",
+                    "Name": "Lauren Boyle"
+                },
+                {
+                    "attributes": {
+                        "type": "Contact",
+                        "url": "/services/data/v54.0/sobjects/Contact/0038c00002iImLWAA0"
+                    },
+                    "AccountId": "0018c00002EudEcAAJ",
+                    "Id": "0038c00002iImLWAA0",
+                    "Name": "Arthur Song"
+                },
+                {
+                    "attributes": {
+                        "type": "Contact",
+                        "url": "/services/data/v54.0/sobjects/Contact/0038c00002iImLbAAK"
+                    },
+                    "AccountId": "0018c00002EudEcAAJ",
+                    "Id": "0038c00002iImLbAAK",
+                    "Name": "Avi Green"
+                }
+            ]
+        }
+    }
+]

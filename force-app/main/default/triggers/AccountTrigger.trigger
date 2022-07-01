@@ -1,15 +1,22 @@
-trigger AccountTrigger on Account (before insert, after insert, before update, after update) {
-    if(trigger.isBefore){
-        System.debug('before insert/update trigger called');
-        AccountTriggerHandler.updateAccountDescription(trigger.new, trigger.old, trigger.newMap, Trigger.OldMap);
-        System.debug('before insert/update trigger end');
+trigger AccountTrigger on Account (after insert, after update) {
+    if(Trigger.isAfter){
+        if(Trigger.isUpdate || Trigger.isInsert){
+            AccountTriggerHandler2.getKanyeQuote(Trigger.New, Trigger.oldMap);
+        }
+    }
+
+    
+    // if(trigger.isBefore){
+    //     System.debug('before insert/update trigger called');
+    //     AccountTriggerHandler.updateAccountDescription(trigger.new, trigger.old, trigger.newMap, Trigger.OldMap);
+    //     System.debug('before insert/update trigger end');
 
         
-    }
+    // }
     
-    if(trigger.isAfter && trigger.isUpdate){
-        AccountTriggerHandler.updateVIP(Trigger.New, Trigger.Old, Trigger.NewMap, Trigger.OldMap);
-    }
+    // if(trigger.isAfter && trigger.isUpdate){
+    //     AccountTriggerHandler.updateVIP(Trigger.New, Trigger.Old, Trigger.NewMap, Trigger.OldMap);
+    // }
    
    
    
